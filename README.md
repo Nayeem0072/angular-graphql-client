@@ -1,5 +1,7 @@
 # AngularGraphqlExample
 
+Go to `http://localhost:4200/authors` for getting the author list from the Graphql server using Apollo library. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
 ## Development server

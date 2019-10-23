@@ -1,10 +1,2 @@
 <p>authors works!</p>
-<ul class="authors">
-  <li *ngFor="let author of authors">
-      <span class="badge">{{author.id}}</span> <br>
-    Name: {{author.name}} <br>
-    Bio: {{author.bio}} <br>
-    ImageURL {{author.imgUrl}} <br>
-    ProfileURL {{author.profileUrl}} <br>
-  </li>
-</ul>
+<ngx-json-viewer [json]="authors"></ngx-json-viewer>

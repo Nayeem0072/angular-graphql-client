@@ -7,11 +7,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxJsonViewerModule } from 'ngx-json-viewer';
+import { GauthorComponent } from './gauthor/gauthor.component';
+import { ExchangeRatesComponent } from './exchange-rates/exchange-rates.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FeedComponent } from './feed/feed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    GauthorComponent,
+    ExchangeRatesComponent,
+    ProfileComponent,
+    FeedComponent
   ],
   imports: [
     BrowserModule,
